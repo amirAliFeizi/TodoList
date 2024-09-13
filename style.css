@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-container {
+    background-color: rgb(99, 85, 85);
+    height: 100vh;
+}
+
+.container-catgoris {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.container-catgoris h1 {
+    color: white;
+    font-size: 5rem;
+}
+
+.container-catgoris-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-catgoris-div input {
+    background-color: rgb(53, 48, 48);
+    color: white;
+    width: 20rem;
+    height: 2rem;
+    border-radius: 10px;
+}
+
+.container-catgoris-div button {
+    background-color: white;
+    padding: 9px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    position: absolute;
+    margin-left: 18rem;
+    margin-bottom: 2px;
+    cursor: pointer;
+
+}
