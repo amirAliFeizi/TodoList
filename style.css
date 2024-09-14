@@ -4,6 +4,19 @@
     box-sizing: border-box;
 }
 
+.ticked,
+.trash,
+.edit {
+    width: 30px;
+    height: 30px;
+    padding: 3px;
+    background-color: white;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-left: 5px;
+
+}
+
 .main-container {
     background-color: rgb(99, 85, 85);
     height: 100vh;
@@ -15,24 +28,27 @@
     justify-content: center;
     flex-direction: column;
     position: relative;
+
 }
 
 .container-catgoris h1 {
     color: white;
     font-size: 5rem;
+    margin-top: 10rem;
 }
 
 .container-catgoris-div {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 2rem;
 }
 
 .container-catgoris-div input {
     background-color: rgb(53, 48, 48);
     color: white;
-    width: 20rem;
-    height: 2rem;
+    width: 35rem;
+    height: 2.5rem;
     border-radius: 10px;
 }
 
@@ -42,8 +58,31 @@
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
     position: absolute;
-    margin-left: 18rem;
+    margin-left: 30.75rem;
     margin-bottom: 2px;
     cursor: pointer;
 
+}
+
+.catgoris-ticked {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(61, 61, 61);
+    text-align: center;
+    margin-top: 2rem;
+    padding: 6px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+    width: 27rem;
+
+}
+
+.catgoris-ticked-svg {
+    margin-left: 40px;
+}
+
+.catgoris-ticked span {
+    color: white;
 }
