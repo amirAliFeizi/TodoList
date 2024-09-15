@@ -36,7 +36,9 @@
     font-size: 5rem;
     margin-top: 10rem;
 }
-.catgoris-Drawline{
+
+/* class  draw a line */
+.catgoris-Drawline {
     text-decoration: line-through;
     text-decoration-style: solid;
 }
@@ -54,6 +56,7 @@
     width: 35rem;
     height: 2.5rem;
     border-radius: 10px;
+    border: none;
 }
 
 .container-catgoris-div button {
@@ -89,4 +92,19 @@
 
 .catgoris-ticked span {
     color: white;
+}
+
+.catgoris-meno {
+    position: absolute;
+    margin-left: 46rem;
+    margin-top: 8rem;
+ 
+}
+
+.catgoris-meno select {
+    padding: 10px;
+    border-radius: 1rem;
+    padding-right: 12px;
+    color: rgb(199, 83, 193);
+    font-size: large;
 }
