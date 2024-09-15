@@ -36,6 +36,10 @@
     font-size: 5rem;
     margin-top: 10rem;
 }
+.catgoris-Drawline{
+    text-decoration: line-through;
+    text-decoration-style: solid;
+}
 
 .container-catgoris-div {
     display: flex;
